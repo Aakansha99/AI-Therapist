@@ -1,0 +1,116 @@
+{% extends "basic.html" %}
+{% load static %}
+
+ 
+    {% block head %}
+   
+{% endblock %}
+
+
+
+
+{% block body %}
+
+
+    
+    <div class="container" style="margin-top: 20vh; border-radius: 24px; background: rgba(46, 49, 110, 0.4); height: 500px; padding: 10px;">
+        
+        <br>
+        <form method="POST" class="form-group"style="width: 50%; margin:auto;">
+            {% csrf_token %}
+            <!--{{form.as_p}}-->
+            <p style="font-size:25px; font-family: sans-serif; ">Enter sentence to analyse</p>
+            {{form.Sentence}}
+            <br>
+            <button class="btn btn-warning form-control" type="submit" style="color: rgb(99, 55, 140);">Submit</button>
+        </form>
+        <h1 style="font-family: sans-serif; font-size: 25px; margin-left: 25%; margin-top: 4%;">Result</h1>
+        {% if text == 'Happy' %}
+        <div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; border-radius: 24px; padding: 12px;  margin-left: 24%; color: white; text-align: center;">
+                Happy
+            </div>
+            <div style="margin-left: 25%; margin-top: 50px;">
+                Solution:-
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; margin-right: 2%; display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://semiconductor.withgoogle.com/" target="_blank" style="color: white;">Play Orchestra Online</a>  
+            </div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px;  margin-right: 2%;display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://www.instagram.com/" target="_blank" style="color: white;" >Share your happiness via post on social media</a>  
+            </div>
+            </div>
+            
+            
+        </div>
+
+
+        {% elif text == 'Bored' %}
+        <div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; border-radius: 24px; padding: 12px;  margin-left: 24%; color: white; text-align: center;">
+                Bored
+            </div>
+            <div style="margin-left: 25%; margin-top: 50px;">
+                Solution:-
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; margin-right: 2%; display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://www.youtube.com/watch?v=DDU-rZs-Ic4" target="_blank" style="color: white;">Watch Earth from Internation Space Station</a>  
+            </div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px;  margin-right: 2%;display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://pkj.medium.com/ultimate-list-43-fun-things-to-do-with-google-78864c4f63ca" target="_blank" style="color: white;" >Fun things to do with Google Search</a>  
+            </div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px;  margin-right: 2%;display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://www.ted.com/playlists/239/the_most_jaw_dropping_ted_talk" target="_blank" style="color: white;" >Watch some jaw-dropping ted talk</a>  
+            </div>
+            </div>
+           
+        </div>
+        
+        {% elif text == 'Angry' %}
+        <div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; border-radius: 24px; padding: 12px;  margin-left: 24%; color: white; text-align: center;">
+                Angry
+            </div>
+            <div style="margin-left: 25%; margin-top: 50px;">
+                Solution:-
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; margin-right: 2%; display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://scratch.mit.edu/projects/67046038/fullscreen/" target="_blank" style="color: white;">Virtual Bubble Wrap</a>  
+            </div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px;  margin-right: 2%;display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://www.instagram.com/" target="_blank" style="color: white;" >Online game while workout</a>  
+            </div>
+            </div>
+            
+        </div>
+        {% elif text == 'Surprise' %}
+        <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; border-radius: 24px; padding: 12px;  margin-left: 24%; color: white; text-align: center;">
+            Surprise
+        </div>
+        {% elif text == 'Sad' %}
+        <div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; border-radius: 24px; padding: 12px;  margin-left: 24%; color: white; text-align: center;">
+                Sad
+            </div>
+            <div style="margin-left: 25%; margin-top: 50px;">
+                Solution:-
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; margin-right: 2%; display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://thenicestplace.net/" target="_blank" style="color: white;">Want a Virtual Hug</a>  
+            </div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px;  margin-right: 2%;display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://emergencycompliment.com/" target="_blank" style="color: white;" >What about a compliment for you</a>  
+            </div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; margin-right: 2%; display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://www.wishpush.com/" target="_blank" style="color: white;">Make a wish to a fallen star</a>  
+            </div>
+            <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px;  margin-left: 9%; margin-top: 10%; display: inline; border-radius: 24px; padding: 12px; color: white; text-align: center;">
+                <a href="https://rainymood.com/" target="_blank" style="color: white;" >Wanna take a nap</a>  
+            </div>
+            </div>
+            
+        </div>
+        {% elif text == 'Fear' %}
+        <div class="positive" style="background-color: rgb(68, 88, 149); width: 100px; border-radius: 24px; padding: 12px;  margin-left: 24%; color: white; text-align: center;">
+            Fear
+        </div>
+        {% endif %}
+
+    </div>
+    {% endblock %}
