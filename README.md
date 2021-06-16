@@ -1,7 +1,7 @@
 # AI-Therapist
 
 # Features
-* Patient can predict the disease by entering your symptoms
+* Patient can predict the disease by entering his symptoms
 * Patient will get the confidence score of your disease and it will suggest you the best doctors for you
 * Patient will see full details of a doctor and their previous ratings and reviews
 * Patient can book appointment with the doctor as per your schedule
