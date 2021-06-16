@@ -3,7 +3,7 @@
 # Features
 * Patient can predict the disease by entering his symptoms
 * Patient will get the confidence score of his disease and it will suggest him the best doctors for him
-* Patient will see full details of a doctor and their previous ratings and reviews
+* Patient can see full details of a doctor and their previous ratings and reviews
 * Patient can book appointment with the doctor as per their schedule
 * Patient has his all medical records and reports stored at a single place
 * User can analyse his emotions as well and platform has various interesting activites for the user as per their mood
