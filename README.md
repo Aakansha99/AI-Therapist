@@ -20,3 +20,9 @@
 ![Logo](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(149).png)
 ![Logo](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(150).png)
 ![Symptoms](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(152).png)
+![predict](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(154).png)
+![doctor](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(155).png)
+![appointment](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(157).png)
+![sentimnet](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(161).png)
+![consultation history](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(162).png)
+
