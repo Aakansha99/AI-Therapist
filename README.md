@@ -15,3 +15,6 @@
 * Alert if you miss a check-up
 * Locate in case of emergency
 * Women Health Portal in which women can maintain their Mental Health, Keep track of their Menstrual Cycle and Get aware of Breast Cancer. They can also consult an Oncologist, Gynocologist.
+
+
+![Logo](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(149).png)
