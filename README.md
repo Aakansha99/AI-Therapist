@@ -18,3 +18,4 @@
 
 
 ![Logo](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(149).png)
+![Logo](https://github.com/Aakansha99/AI-Therapist/blob/main/pics/Screenshot%20(150).png)
